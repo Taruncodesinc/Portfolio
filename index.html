@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!--My css-->
+    <link rel="stylesheet" href="styles.css" />
+    <!--Tailwind CSS-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Icons-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="main">
+      <div class="page1 flex flex-col items-center justify-center h-[100vh]">
+        <div class="container" id="mouse-move">
+          <img src="/images/1000123983-modified.png" id="img1" />
+
+          <div
+            class="overlay flex flex-col top-0 left-0 justify-between text-white flex-nowrap"
+          >
+            <div
+              class="nav-bar absolute flex justify-between my-4 w-[100vw] top-0 left-0"
+            >
+              <div class="brand p-4 text-[20px] font-['Poppins']">Tarun</div>
+              <div class="menu-btn p-4" id="toggle-btn-open">
+                <i class="ri-menu-3-line"></i>
+              </div>
+              <div
+                class="nav-bar flex absolute top-8 text-nowrap font-extralight font-['Montserrat'] w-[50vw] justify-between left-[100vw]"
+                id="menu-bar"
+              >
+                <ul class="flex flex-col gap-3 nav-bar-m">
+                  <li><a href="#about-me" class="text-[13px]">About Me</a></li>
+                  <li><a href="#dot-plan" class="text-[13px]">Dot Plan</a></li>
+                  <li><a href="#cn" class="text-[13px]">Connect</a></li>
+                </ul>
+                <div class="close" id="close-menu-btn">
+                  <i class="ri-close-large-line px-3 text-white" id="icon2">
+                  </i>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-nowrap" id="horizontal-scroll">
+              <ul class="skills flex">
+                <li
+                  class="font-['Quicksand'] text-[45px] text-nowrap tracking-tighter"
+                >
+                  Frontend & UI/UX
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    <hr class="w-[50vw] absolute left-[25vw] py-10">
+
+      <!--page 2-->
+      <div class="page2 h-[120vh] text-white flex flex-col gap-3" id="about-me">
+        <div class="about py-10 font-['Raleway'] px-3 underline underline-offset-8">About</div>
+
+        <div class="about-para px-3 font-['Montserrat'] font-extralight">
+          I'm Tarun Rawat, currently pursuing a Bachelor's Degree in Computer
+          Science and Engineering at Chandigarh Group of Colleges. Alongside my
+          studies, I am working as a
+          <span class="text-yellow-400">
+            <a href="">Frontend Engineer </a>
+          </span>
+          at
+          <span class="text-red-300"
+            ><a href="">Netcon technologies Pvt Ltd</a></span
+          >
+          , where I specialize in creating engaging and user-friendly web
+          interfaces.
+        </div>
+        <div class="skill-section text-center pt-8 pb-2">
+          <h1 class="font-['Roboto'] text-[30px] font-extrabold">Skills</h1>
+          <div
+            class="pt-4 font-['Ubuntu'] font-extralight skill-set"
+            id="div-skill"
+          >
+            <ul
+              class="flex gap-3 flex-wrap flex-col justify-center items-center my-skills"
+              id="skill"
+            >
+              <li class="html skill-item">HTML</li>
+              <li class="css skill-item">CSS</li>
+              <li class="tailwind skill-item">Tailwind CSS</li>
+              <li class="react skill-item">React</li>
+              <li class="js skill-item">Javascript</li>
+              <li class="figma skill-item">Figma</li>
+              <li class="text-green-400 skill-item">GitHub</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr class="w-[50vw] absolute left-[25vw] my-5">
+     
+
+      
+        <div class="mt-10">
+            <h2 class="text-white py-10 text-center font-['Poppins']" id="dot-plan">🛠 Current Projects</h2>
+            <ul class="g">
+                <li class="flex items-start">
+                    <span class="mr-2 text-blue-500">🔹</span>
+                    <div>
+                        <h3 class="text-yellow-400 font-bold text-[18px]">Map Ease</h3>
+                        <p class="text-white text-[16px]"> Simplifying communication and creating customized navigation maps for organizations.</p>
+                    </div>
+                </li>
+               
+                
+            </ul>
+        </div>
+        
+       
+        <div class="text-center">
+            <h2 class="font-bold mt-6 text-white font-['Poppins'] ">📝 Upcoming Tasks</h2>
+            <ul class="space-y-4 mx-3 tasks">
+                <li class="flex items-start task">
+                    <span class="mr-2 text-green-500">📅</span>
+                    <div class="flex flex-col task">
+                        <h3 class="text-[16px] font-['Roboto'] text-white">LC weekly Contest </i></h3>
+                          <div class="timer flex justify-around items-baseline">
+                          <p class="text-white text-[15px]">In</p> <div id="countdown-LC-Weekly-Contest" class="px-3"></div>
+                        </div>
+                       
+                    </div>
+                </li>
+                <li class="flex items-start task">
+                    <span class="mr-2 text-green-500">📅</span>
+                    <div class="flex flex-col task">
+                        <h3 class="text-[16px] font-['Roboto'] text-white">LC Biweekly Contest </h3>
+                        <div class="timer flex justify-around items-baseline">
+                          <p class="text-white text-[15px]">In</p> <div id="countdown-LC-Biweekly-Contest" class="px-3"></div>
+                        </div>
+                        
+                      </div>
+                </li>
+                <li class="flex items-start task">
+                    <span class="mr-2 text-green-500">📅</span>
+                    <div class="flex flex-col task">
+                        <h3 class="text-[16px] font-['Roboto'] text-white">GSOC 2025 </h3>
+                         <div class="timer flex justify-around items-baseline">
+                          <p class="text-white text-[15px]">In</p> <div id="countdown-GSOC-2025" class="px-3"></div>
+                        </div>
+                      </div>
+                </li>
+                
+            </ul>
+        </div>
+   
+
+      
+    <!--footer-->
+    <hr class="w-[50vw] absolute left-[25vw] my-5">
+    <div class="footer h-[50vh] py-10">
+      <div class="flex flex-col justify-center items-center gap-3">
+        <div class="text-white mt-5" id="cn">Connect With me</div>
+        <div>
+          <ul class="flex flex-row gap-4" id="socials">
+          <li> <a href=""><i class="ri-instagram-line text-red-700"></i></a> </li>
+          <li><a href="">  <i class="ri-github-fill text-red-700"></i></a></li>
+          <li><a href=""><i class="ri-mail-line text-red-700"></i></a></li>
+
+          </ul>
+        </div>
+        <div class="text-white text-center w-[50vw]">Built with the magic of HTML, JavaScript, and CSS</div>
+      </div>
+     
+
+    </div>
+    <div class="end flex">
+       <p class="text-white mx-3">&copy; 2024 Tarun Rawat. All rights reserved.</p>
+       <div>
+       <i class="ri-arrow-up-line  text-white" id="back-top"></i>
+       </div>
+    </div>
+   
+    </div>
+    
+    <!--GSAPs-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="my_js.js"></script>
+  </body>
+</html>
