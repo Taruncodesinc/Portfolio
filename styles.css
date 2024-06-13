@@ -21,7 +21,7 @@ html::-webkit-scrollbar-thumb
 }
 body{
     overflow-x: hidden;
-    background-color: red;
+    background-color:  #06141b;
 }
 
 li{
