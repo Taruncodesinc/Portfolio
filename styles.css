@@ -19,9 +19,10 @@ html::-webkit-scrollbar-thumb
     border-radius: 30px;
     height: 20px;
 }
-body{
+body,html{
     overflow-x: hidden;
     background-color: #06141b;
+    transform:scale(1);
 }
 
 li{
