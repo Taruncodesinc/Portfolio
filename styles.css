@@ -23,18 +23,13 @@ body{
     overflow-x: hidden;
     background-color: red;
 }
-.page1{
-   background: linear-gradient(to right, black);
 
-
-}
 li{
     
     font-size: 20px;
     list-style-type: disc;
 
     display: inline;
-    
 }
 .tracker
 {
