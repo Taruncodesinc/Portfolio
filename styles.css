@@ -21,7 +21,7 @@ html::-webkit-scrollbar-thumb
 }
 body{
     overflow-x: hidden;
-    background-color: #06141b;
+    background-color: red;
 }
 .page1{
    background: linear-gradient(to right, black);
